@@ -1,0 +1,43 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+
+
+/* buttons */
+
+.btn-align { position: relative; top: 45%; }
+.btn-ghost {
+  display: block;
+  width: 340px; width: 34rem;
+  height: 66px; height: 6.6rem;
+  font: 700 20px/66px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font: 2.0rem/6.6rem;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .16s ease;
+  margin: 0 auto;
+}
+
+.btn-white { 
+  color: #fff; 
+  border: 2px solid #fff; 
+}
+
+.btn-white:hover, .btn-white:active, .btn-white:focus  {
+  background-color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+
+
+@media screen and (max-width: 420px) { /* iPhone Landscape */
+  .btn-ghost {
+    width: 290px; width: 29.0rem;
+    height: 50px; height: 5.0rem;
+    font-size: 16px; font-size: 1.6rem;
+    line-height: 50px; line-height: 5.0rem;
+  }
+}
+
+
